@@ -1,0 +1,29 @@
+
+
+/***************************
+         DEFAULT
+****************************/
+
+
+
+/***************************
+    CUSTOM SCROLL BAR
+****************************/
+::-webkit-scrollbar {
+    height: 12px;
+    width: 2px;
+    background: var(--dark);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--lite);
+    -webkit-box-shadow: 0px 1px 2px var(--dark);
+}
+
+::-webkit-scrollbar-corner {
+    background: var(--dark);
+}
+
+
+
+
